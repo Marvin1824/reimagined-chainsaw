@@ -42,7 +42,7 @@ jobs:
           persist-credentials: 'false'
 
       - name: Setup node
-        uses: actions/setup-node@270253e841af726300e85d718a5f606959b2903c
+        uses: actions/setup-node@eeb10cff27034e7acf239c5d29f62154018672fd
         with:
           node-version: 16.13.x
           cache: npm
